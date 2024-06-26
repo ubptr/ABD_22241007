@@ -68,7 +68,6 @@ SELECT COUNT(DISTINCT nama_produk) FROM tr_penjualan_dqlab;
 -- hitung jumlah nilai unik dari nama produk dan seleuruh row dari tabel penjualan
 SELECT COUNT(*),  COUNT(DISTINCT nama_produk) FROM tr_penjualan_dqlab;
 
-
 -- menampilkan field nama produk dan fungsi max qty pada tabel penjualan
 SELECT nama_produk, MAX(nama_produk) FROM tr_penjualan_dqlab;
 
